@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: Arial, sans-serif;
+  font-size: 14px;
 }
 
 .container {
@@ -9,11 +10,12 @@
   border: 1px solid black;
   background: #CCCCCC;
   display: flex;
+  padding: 20px;
 }
 
 main {
   border-left: 1px solid black;
-  padding: 20px;
+  padding-left: 20px;
   position: relative;
 }
 
@@ -21,18 +23,8 @@ main {
   display: flex;
 }
 
-.pencil-img {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-}
-
-section {
-  width: 110px;
-}
-
-.duck-img img {
-  padding: 20px;
+.duck-img {
+  padding-right: 20px;
 }
 
 h1 {
@@ -41,16 +33,13 @@ h1 {
   margin-top: 0;
 }
 
-p, li {
-  font-size: 14px;
-}
-
 p {
   margin-bottom: 0;
 }
 
-.section1 {
+.wrapper section:first-child {
   font-weight: bold;
+  width: 110px;
 }
 
 section ul {
@@ -59,4 +48,10 @@ section ul {
 
 section ul li {
   list-style: none;
+}
+
+.pencil-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
