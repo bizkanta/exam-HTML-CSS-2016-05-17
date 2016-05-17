@@ -14,19 +14,24 @@
 main {
   border-left: 1px solid black;
   padding: 20px;
+  position: relative;
 }
 
 .wrapper {
   display: flex;
 }
 
-section {
-  width: 110px;
-  height: 60px;
+.pencil-img {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
 }
 
-img {
-  height: 136px;
+section {
+  width: 110px;
+}
+
+.duck-img img {
   padding: 20px;
 }
 
@@ -42,6 +47,10 @@ p, li {
 
 p {
   margin-bottom: 0;
+}
+
+.section1 {
+  font-weight: bold;
 }
 
 section ul {
