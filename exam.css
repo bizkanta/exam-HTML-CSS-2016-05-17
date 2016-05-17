@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 540px;
+  height: 185px;
+  border: 1px solid black;
+  background: #CCCCCC;
+  display: flex;
+}
+
+main {
+  border-left: 1px solid black;
+  padding: 20px;
+}
+
+img {
+  height: 96px;
+}
+
+h1 {
+  font-size: 24px;
+  font-style: italic;
+}
+
+p {
+  font-size: 14px;
+}
